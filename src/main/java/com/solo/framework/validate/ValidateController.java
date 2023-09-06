@@ -13,7 +13,7 @@ import com.core.util.validation.SValidatorUtil;
 
 @RestController
 @RequestMapping("/validate")
-public class Validate {
+public class ValidateController {
 
 	@PostMapping("/allowParameters")
 	public Solo AllowParams(@RequestBody Solo params) throws SoloException {
