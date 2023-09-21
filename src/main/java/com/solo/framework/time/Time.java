@@ -13,9 +13,9 @@ public class Time {
 	
 	@RequestMapping("/ago")
 	public String ago() {
-		Date fromDate = SDateFormatUtil.stringToDate("10-10-2023 11:45:20", "dd-MM-yyyy HH:mm:ss"); 
-		Date EndDate = SDateFormatUtil.stringToDate("10-10-2023 11:45:30", "dd-MM-yyyy HH:mm:ss"); 
-		String date = STimeUtil.timeAgo(EndDate, fromDate);
+		Date fromDate = SDateFormatUtil.stringToDate("21-09-2023 11:45:20 am", "dd-MM-yyyy HH:mm:ss a"); 
+		Date currentDate = SDateFormatUtil.stringToDate("21-09-2023 11:45:23 am", "dd-MM-yyyy HH:mm:ss a"); 
+		String date = STimeUtil.timeAgo(currentDate, fromDate);
 		return date;
 	}
 }
