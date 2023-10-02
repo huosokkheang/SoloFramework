@@ -1,6 +1,6 @@
 # SoloFramework
 
-## Doc: https:huosokkheang.github.io/Solo-Framework
+## Doc: https://huosokkheang.github.io/Solo-Framework
 
 ### AESEncryption.java
 
